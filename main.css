@@ -1,0 +1,36 @@
+/*{}[]]*/
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    background-color: #ffffff;
+    height: 100vh;
+ justify-content: space-around;
+ align-items: center;
+ margin: 20px;
+ 
+ 
+}
+
+.container{
+    box-shadow: 6px 6px rgb(228, 231, 216, 0.9);
+}
+.container:hover{
+    background-color: rgb(242, 246, 250);
+}
+
+
+
+.logo-sidebar{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
